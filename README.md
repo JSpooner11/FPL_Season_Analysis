@@ -4,6 +4,20 @@
 1. Create a Docker-compose File.
 2. Ability to Spin up Docker with SQL.
 
+### How to:
+1. Spin up Docker
+`sudo docker-compose up -d`
+
+2. Access Postgres Container
+`sudo docker exec -it mysqlLocal /bin/bash`
+
+3. Use PSQL
+`mysql -u user -p `
+
+4. Create DDL
+`docker-compose exec PostgresCont psql -U postgres  -a -f /bin/base/ SQL/DDL.SQL`
+
+
 ## SQL 
 1. Create Schemas on SQL Docker.
 2. Have a Star Schema to Analyse the Data (DW).

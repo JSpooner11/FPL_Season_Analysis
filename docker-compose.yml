@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    container_name: mysqlLocal
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DB}
+      MYSQL_USER: ${MYSQL_DB}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+      - .SQL/DDL.sql:/docker-entrypoint-initdb.d/DDL.sql
+volumes:
+  my-db:
