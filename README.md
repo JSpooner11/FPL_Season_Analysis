@@ -43,3 +43,8 @@ docker volume rm volume_name
 `pip install sqlfluff`
 2. Installing pre-commit
 `pip install pre-commit`
+3. Running pre-commit
+    Install pre-commit to work with git commit:
+    `pre-commit install`
+    Run pre-commit on all files:
+    `pre-commit run --all-files`
