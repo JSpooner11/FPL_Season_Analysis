@@ -8,10 +8,10 @@
 1. Spin up Docker
 `sudo docker-compose up -d`
 
-2. Access Postgres Container
+2. Access Mysql Container
 `sudo docker exec -it mysqlLocal /bin/bash`
 
-3. Use PSQL
+3. Use Mysql
 `mysql -u user -p `
 
 4. Create DDL
