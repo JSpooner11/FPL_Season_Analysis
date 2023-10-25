@@ -12,10 +12,10 @@
 `sudo docker exec -it mysqlLocal /bin/bash`
 
 3. Use Mysql
-`mysql -u user -p `
+`mysql -uroot -proot`
 
 4. Create DDL
-`docker-compose exec PostgresCont psql -U postgres  -a -f /bin/base/ SQL/DDL.SQL`
+The DDL gets create on docker init.
 
 
 ## SQL 
