@@ -1,0 +1,300 @@
+match_date,home_team,away_team,score,goal_scorer_h,goal_min_h,goal_scorer_a,goal_min_a,event_type
+Fri,Burnley,Manchester City,0–3,Anass Zaroury,90+4,,,red_card
+Fri,Burnley,Manchester City,0–3,,,Erling Haaland,4,goal
+Fri,Burnley,Manchester City,0–3,,,Erling Haaland,36,goal
+Fri,Burnley,Manchester City,0–3,,,Rodri,75,goal
+Sat,Arsenal,Nott'ham Forest,2–1,Eddie Nketiah,26,,,goal
+Sat,Arsenal,Nott'ham Forest,2–1,Bukayo Saka,32,,,goal
+Sat,Arsenal,Nott'ham Forest,2–1,,,Taiwo Awoniyi,82,goal
+Sat,Everton,Fulham,0–1,,,Bobby Reid,73,goal
+Sat,Sheffield Utd,Crystal Palace,0–1,,,Odsonne Édouard,49,goal
+Sat,Brighton,Luton Town,4–1,Solly March,36,,,goal
+Sat,Brighton,Luton Town,4–1,João Pedro (P),71,,,penalty_goal
+Sat,Brighton,Luton Town,4–1,Simon Adingra,85,,,goal
+Sat,Brighton,Luton Town,4–1,Evan Ferguson,90+5,,,goal
+Sat,Brighton,Luton Town,4–1,,,Carlton Morris (P),81,penalty_goal
+Sat,Bournemouth,West Ham,1–1,Dominic Solanke,82,,,goal
+Sat,Bournemouth,West Ham,1–1,,,Jarrod Bowen,51,goal
+Sat,Newcastle Utd,Aston Villa,5–1,Sandro Tonali,6,,,goal
+Sat,Newcastle Utd,Aston Villa,5–1,Alexander Isak,16,,,goal
+Sat,Newcastle Utd,Aston Villa,5–1,Alexander Isak,58,,,goal
+Sat,Newcastle Utd,Aston Villa,5–1,Callum Wilson,77,,,goal
+Sat,Newcastle Utd,Aston Villa,5–1,Harvey Barnes,90+1,,,goal
+Sat,Newcastle Utd,Aston Villa,5–1,,,Moussa Diaby,11,goal
+Sun,Brentford,Tottenham,2–2,Bryan Mbeumo (P),26,,,penalty_goal
+Sun,Brentford,Tottenham,2–2,Yoane Wissa,36,,,goal
+Sun,Brentford,Tottenham,2–2,,,Cristian Romero,11,goal
+Sun,Brentford,Tottenham,2–2,,,Emerson,45+4,goal
+Sun,Chelsea,Liverpool,1–1,Axel Disasi,37,,,goal
+Sun,Chelsea,Liverpool,1–1,,,Luis Díaz,18,goal
+Mon,Manchester Utd,Wolves,1–0,Raphaël Varane,76,,,goal
+Fri,Nott'ham Forest,Sheffield Utd,2–1,Taiwo Awoniyi,3,,,goal
+Fri,Nott'ham Forest,Sheffield Utd,2–1,Chris Wood,89,,,goal
+Fri,Nott'ham Forest,Sheffield Utd,2–1,,,Gustavo Hamer,48,goal
+Sat,Fulham,Brentford,0–3,Tim Ream,64,,,yellow_red_card
+Sat,Fulham,Brentford,0–3,,,Yoane Wissa,44,goal
+Sat,Fulham,Brentford,0–3,,,Bryan Mbeumo (P),66,penalty_goal
+Sat,Fulham,Brentford,0–3,,,Bryan Mbeumo,90+2,goal
+Sat,Liverpool,Bournemouth,3–1,Luis Díaz,27,,,goal
+Sat,Liverpool,Bournemouth,3–1,Mohamed Salah,36,,,goal
+Sat,Liverpool,Bournemouth,3–1,Alexis Mac Allister,58,,,red_card
+Sat,Liverpool,Bournemouth,3–1,Diogo Jota,62,,,goal
+Sat,Liverpool,Bournemouth,3–1,,,Antoine Semenyo,3,goal
+Sat,Wolves,Brighton,1–4,Hwang Hee-chan,61,,,goal
+Sat,Wolves,Brighton,1–4,Matheus Nunes,90+5,,,yellow_red_card
+Sat,Wolves,Brighton,1–4,,,Kaoru Mitoma,15,goal
+Sat,Wolves,Brighton,1–4,,,Pervis Estupiñán,46,goal
+Sat,Wolves,Brighton,1–4,,,Solly March,51,goal
+Sat,Wolves,Brighton,1–4,,,Solly March,55,goal
+Sat,Tottenham,Manchester Utd,2–0,Pape Matar Sarr,49,,,goal
+Sat,Tottenham,Manchester Utd,2–0,Lisandro Martínez (OG),83,,,own_goal
+Sat,Manchester City,Newcastle Utd,1–0,Julián Álvarez,31,,,goal
+Sun,Aston Villa,Everton,4–0,John McGinn,18,,,goal
+Sun,Aston Villa,Everton,4–0,Douglas Luiz (P),24,,,penalty_goal
+Sun,Aston Villa,Everton,4–0,Leon Bailey,51,,,goal
+Sun,Aston Villa,Everton,4–0,Jhon Durán,75,,,goal
+Sun,West Ham,Chelsea,3–1,Nayef Aguerd,7,,,goal
+Sun,West Ham,Chelsea,3–1,Michail Antonio,53,,,goal
+Sun,West Ham,Chelsea,3–1,Nayef Aguerd,67,,,yellow_red_card
+Sun,West Ham,Chelsea,3–1,Lucas Paquetá (P),90+5,,,penalty_goal
+Sun,West Ham,Chelsea,3–1,,,Carney Chukwuemeka,28,goal
+Mon,Crystal Palace,Arsenal,0–1,,,Martin Ødegaard (P),54,penalty_goal
+Mon,Crystal Palace,Arsenal,0–1,,,Takehiro Tomiyasu,67,yellow_red_card
+Fri,Chelsea,Luton Town,3–0,Raheem Sterling,17,,,goal
+Fri,Chelsea,Luton Town,3–0,Raheem Sterling,68,,,goal
+Fri,Chelsea,Luton Town,3–0,Nicolas Jackson,75,,,goal
+Sat,Bournemouth,Tottenham,0–2,,,James Maddison,17,goal
+Sat,Bournemouth,Tottenham,0–2,,,Dejan Kulusevski,63,goal
+Sat,Everton,Wolves,0–1,,,Sasa Kalajdzic,87,goal
+Sat,Brentford,Crystal Palace,1–1,Kevin Schade,18,,,goal
+Sat,Brentford,Crystal Palace,1–1,,,Joachim Andersen,76,goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,Christian Eriksen,17,,,goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,Casemiro,52,,,goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,Bruno Fernandes (P),76,,,penalty_goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,,,Taiwo Awoniyi,2,goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,,,Willy Boly,4,goal
+Sat,Manchester Utd,Nott'ham Forest,3–2,,,Joe Worrall,67,red_card
+Sat,Arsenal,Fulham,2–2,Bukayo Saka (P),70,,,penalty_goal
+Sat,Arsenal,Fulham,2–2,Eddie Nketiah,72,,,goal
+Sat,Arsenal,Fulham,2–2,,,Andreas Pereira,1,goal
+Sat,Arsenal,Fulham,2–2,,,Calvin Bassey,83,yellow_red_card
+Sat,Arsenal,Fulham,2–2,,,João Palhinha,87,goal
+Sat,Brighton,West Ham,1–3,Pascal Groß,81,,,goal
+Sat,Brighton,West Ham,1–3,,,James Ward-Prowse,19,goal
+Sat,Brighton,West Ham,1–3,,,Jarrod Bowen,58,goal
+Sat,Brighton,West Ham,1–3,,,Michail Antonio,63,goal
+Sun,Sheffield Utd,Manchester City,1–2,Jayden Bogle,85,,,goal
+Sun,Sheffield Utd,Manchester City,1–2,,,Erling Haaland,63,goal
+Sun,Sheffield Utd,Manchester City,1–2,,,Rodri,88,goal
+Sun,Burnley,Aston Villa,1–3,Lyle Foster,47,,,goal
+Sun,Burnley,Aston Villa,1–3,,,Matty Cash,8,goal
+Sun,Burnley,Aston Villa,1–3,,,Matty Cash,20,goal
+Sun,Burnley,Aston Villa,1–3,,,Moussa Diaby,61,goal
+Sun,Newcastle Utd,Liverpool,1–2,Anthony Gordon,25,,,goal
+Sun,Newcastle Utd,Liverpool,1–2,,,Virgil van Dijk,28,red_card
+Sun,Newcastle Utd,Liverpool,1–2,,,Darwin Núñez,81,goal
+Sun,Newcastle Utd,Liverpool,1–2,,,Darwin Núñez,90+3,goal
+Fri,Luton Town,West Ham,1–2,Mads Juel Andersen,90+2,,,goal
+Fri,Luton Town,West Ham,1–2,,,Jarrod Bowen,37,goal
+Fri,Luton Town,West Ham,1–2,,,Kurt Zouma,85,goal
+Sat,Sheffield Utd,Everton,2–2,Cameron Archer,33,,,goal
+Sat,Sheffield Utd,Everton,2–2,Jordan Pickford (OG),45+3,,,own_goal
+Sat,Sheffield Utd,Everton,2–2,,,Abdoulaye Doucouré,14,goal
+Sat,Sheffield Utd,Everton,2–2,,,Arnaut Danjuma,55,goal
+Sat,Chelsea,Nott'ham Forest,0–1,,,Anthony Elanga,48,goal
+Sat,Manchester City,Fulham,5–1,Julián Álvarez,31,,,goal
+Sat,Manchester City,Fulham,5–1,Nathan Aké,45+5,,,goal
+Sat,Manchester City,Fulham,5–1,Erling Haaland,58,,,goal
+Sat,Manchester City,Fulham,5–1,Erling Haaland (P),70,,,penalty_goal
+Sat,Manchester City,Fulham,5–1,Erling Haaland,90+5,,,goal
+Sat,Manchester City,Fulham,5–1,,,Tim Ream,33,goal
+Sat,Brentford,Bournemouth,2–2,Mathias Jensen,7,,,goal
+Sat,Brentford,Bournemouth,2–2,Bryan Mbeumo,90+3,,,goal
+Sat,Brentford,Bournemouth,2–2,,,Dominic Solanke,30,goal
+Sat,Brentford,Bournemouth,2–2,,,David Brooks,77,goal
+Sat,Burnley,Tottenham,2–5,Lyle Foster,4,,,goal
+Sat,Burnley,Tottenham,2–5,Josh Brownhill,90+4,,,goal
+Sat,Burnley,Tottenham,2–5,,,Son Heung-min,16,goal
+Sat,Burnley,Tottenham,2–5,,,Cristian Romero,45+2,goal
+Sat,Burnley,Tottenham,2–5,,,James Maddison,54,goal
+Sat,Burnley,Tottenham,2–5,,,Son Heung-min,63,goal
+Sat,Burnley,Tottenham,2–5,,,Son Heung-min,66,goal
+Sat,Brighton,Newcastle Utd,3–1,Evan Ferguson,27,,,goal
+Sat,Brighton,Newcastle Utd,3–1,Evan Ferguson,65,,,goal
+Sat,Brighton,Newcastle Utd,3–1,Evan Ferguson,70,,,goal
+Sat,Brighton,Newcastle Utd,3–1,,,Callum Wilson,90+2,goal
+Sun,Liverpool,Aston Villa,3–0,Dominik Szoboszlai,3,,,goal
+Sun,Liverpool,Aston Villa,3–0,Matty Cash (OG),22,,,own_goal
+Sun,Liverpool,Aston Villa,3–0,Mohamed Salah,55,,,goal
+Sun,Crystal Palace,Wolves,3–2,Odsonne Édouard,56,,,goal
+Sun,Crystal Palace,Wolves,3–2,Eberechi Eze,78,,,goal
+Sun,Crystal Palace,Wolves,3–2,Odsonne Édouard,84,,,goal
+Sun,Crystal Palace,Wolves,3–2,,,Hwang Hee-chan,65,goal
+Sun,Crystal Palace,Wolves,3–2,,,Matheus Cunha,90+6,goal
+Sun,Arsenal,Manchester Utd,3–1,Martin Ødegaard,28,,,goal
+Sun,Arsenal,Manchester Utd,3–1,Declan Rice,90+6,,,goal
+Sun,Arsenal,Manchester Utd,3–1,Gabriel Jesus,90+11,,,goal
+Sun,Arsenal,Manchester Utd,3–1,,,Marcus Rashford,27,goal
+Sat,Wolves,Liverpool,1–3,Hwang Hee-chan,7,,,goal
+Sat,Wolves,Liverpool,1–3,,,Cody Gakpo,55,goal
+Sat,Wolves,Liverpool,1–3,,,Andrew Robertson,85,goal
+Sat,Wolves,Liverpool,1–3,,,Hugo Bueno (OG),90+1,own_goal
+Sat,Fulham,Luton Town,1–0,Carlos Vinícius,65,,,goal
+Sat,West Ham,Manchester City,1–3,James Ward-Prowse,36,,,goal
+Sat,West Ham,Manchester City,1–3,,,Jeremy Doku,46,goal
+Sat,West Ham,Manchester City,1–3,,,Bernardo Silva,76,goal
+Sat,West Ham,Manchester City,1–3,,,Erling Haaland,86,goal
+Sat,Aston Villa,Crystal Palace,3–1,Jhon Durán,87,,,goal
+Sat,Aston Villa,Crystal Palace,3–1,Douglas Luiz (P),90+8,,,penalty_goal
+Sat,Aston Villa,Crystal Palace,3–1,Leon Bailey,90+11,,,goal
+Sat,Aston Villa,Crystal Palace,3–1,,,Odsonne Édouard,47,goal
+Sat,Manchester Utd,Brighton,1–3,Hannibal Mejbri,73,,,goal
+Sat,Manchester Utd,Brighton,1–3,,,Danny Welbeck,20,goal
+Sat,Manchester Utd,Brighton,1–3,,,Pascal Groß,53,goal
+Sat,Manchester Utd,Brighton,1–3,,,João Pedro,71,goal
+Sat,Tottenham,Sheffield Utd,2–1,Richarlison,90+8,,,goal
+Sat,Tottenham,Sheffield Utd,2–1,Dejan Kulusevski,90+10,,,goal
+Sat,Tottenham,Sheffield Utd,2–1,,,Gustavo Hamer,73,goal
+Sat,Tottenham,Sheffield Utd,2–1,,,Oliver McBurnie,90+14,yellow_red_card
+Sat,Newcastle Utd,Brentford,1–0,Callum Wilson (P),64,,,penalty_goal
+Sun,Bournemouth,Chelsea,0–0,,,,,
+Sun,Everton,Arsenal,0–1,,,Leandro Trossard,69,goal
+Mon,Nott'ham Forest,Burnley,1–1,Callum Hudson-Odoi,61,,,goal
+Mon,Nott'ham Forest,Burnley,1–1,,,Zeki Amdouni,41,goal
+Mon,Nott'ham Forest,Burnley,1–1,,,Lyle Foster,90+4,red_card
+Sat,Manchester City,Nott'ham Forest,2–0,Phil Foden,7,,,goal
+Sat,Manchester City,Nott'ham Forest,2–0,Erling Haaland,14,,,goal
+Sat,Manchester City,Nott'ham Forest,2–0,Rodri,46,,,red_card
+Sat,Luton Town,Wolves,1–1,Carlton Morris (P),65,,,penalty_goal
+Sat,Luton Town,Wolves,1–1,,,Jean-Ricner Bellegarde,39,red_card
+Sat,Luton Town,Wolves,1–1,,,Pedro Neto,50,goal
+Sat,Crystal Palace,Fulham,0–0,,,,,
+Sat,Brentford,Everton,1–3,Mathias Jensen,28,,,goal
+Sat,Brentford,Everton,1–3,,,Abdoulaye Doucouré,6,goal
+Sat,Brentford,Everton,1–3,,,James Tarkowski,67,goal
+Sat,Brentford,Everton,1–3,,,Dominic Calvert-Lewin,71,goal
+Sat,Burnley,Manchester Utd,0–1,,,Bruno Fernandes,45,goal
+Sun,Arsenal,Tottenham,2–2,Cristian Romero (OG),26,,,own_goal
+Sun,Arsenal,Tottenham,2–2,Bukayo Saka (P),54,,,penalty_goal
+Sun,Arsenal,Tottenham,2–2,,,Son Heung-min,42,goal
+Sun,Arsenal,Tottenham,2–2,,,Son Heung-min,55,goal
+Sun,Brighton,Bournemouth,3–1,Milos Kerkez (OG),45+2,,,own_goal
+Sun,Brighton,Bournemouth,3–1,Kaoru Mitoma,46,,,goal
+Sun,Brighton,Bournemouth,3–1,Kaoru Mitoma,77,,,goal
+Sun,Brighton,Bournemouth,3–1,,,Dominic Solanke,25,goal
+Sun,Chelsea,Aston Villa,0–1,Malo Gusto,58,,,red_card
+Sun,Chelsea,Aston Villa,0–1,,,Ollie Watkins,73,goal
+Sun,Liverpool,West Ham,3–1,Mohamed Salah (P),16,,,penalty_goal
+Sun,Liverpool,West Ham,3–1,Darwin Núñez,60,,,goal
+Sun,Liverpool,West Ham,3–1,Diogo Jota,85,,,goal
+Sun,Liverpool,West Ham,3–1,,,Jarrod Bowen,42,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Sean Longstaff,21,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Dan Burn,31,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Sven Botman,35,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Callum Wilson,56,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Anthony Gordon,61,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Miguel Almirón,68,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Bruno Guimarães,73,goal
+Sun,Sheffield Utd,Newcastle Utd,0–8,,,Alexander Isak,87,goal
+Sat,Aston Villa,Brighton,6–1,Ollie Watkins,14,,,goal
+Sat,Aston Villa,Brighton,6–1,Ollie Watkins,21,,,goal
+Sat,Aston Villa,Brighton,6–1,Pervis Estupiñán (OG),26,,,own_goal
+Sat,Aston Villa,Brighton,6–1,Ollie Watkins,65,,,goal
+Sat,Aston Villa,Brighton,6–1,Jacob Ramsey,85,,,goal
+Sat,Aston Villa,Brighton,6–1,Douglas Luiz,90+7,,,goal
+Sat,Aston Villa,Brighton,6–1,,,Ansu Fati,50,goal
+Sat,Wolves,Manchester City,2–1,Rúben Dias (OG),13,,,own_goal
+Sat,Wolves,Manchester City,2–1,Hwang Hee-chan,66,,,goal
+Sat,Wolves,Manchester City,2–1,,,Julián Álvarez,58,goal
+Sat,Bournemouth,Arsenal,0–4,,,Bukayo Saka,17,goal
+Sat,Bournemouth,Arsenal,0–4,,,Martin Ødegaard (P),44,penalty_goal
+Sat,Bournemouth,Arsenal,0–4,,,Kai Havertz (P),53,penalty_goal
+Sat,Bournemouth,Arsenal,0–4,,,Ben White,90+3,goal
+Sat,Everton,Luton Town,1–2,Dominic Calvert-Lewin,41,,,goal
+Sat,Everton,Luton Town,1–2,,,Tom Lockyer,24,goal
+Sat,Everton,Luton Town,1–2,,,Carlton Morris,31,goal
+Sat,Newcastle Utd,Burnley,2–0,Miguel Almirón,14,,,goal
+Sat,Newcastle Utd,Burnley,2–0,Alexander Isak (P),76,,,penalty_goal
+Sat,West Ham,Sheffield Utd,2–0,Jarrod Bowen,24,,,goal
+Sat,West Ham,Sheffield Utd,2–0,Tomáš Souček,37,,,goal
+Sat,Manchester Utd,Crystal Palace,0–1,,,Joachim Andersen,25,goal
+Sat,Tottenham,Liverpool,2–1,Son Heung-min,36,,,goal
+Sat,Tottenham,Liverpool,2–1,Joël Matip (OG),90+6,,,own_goal
+Sat,Tottenham,Liverpool,2–1,,,Curtis Jones,26,red_card
+Sat,Tottenham,Liverpool,2–1,,,Cody Gakpo,45+4,goal
+Sat,Tottenham,Liverpool,2–1,,,Diogo Jota,69,yellow_red_card
+Sun,Nott'ham Forest,Brentford,1–1,Moussa Niakhate,56,,,yellow_red_card
+Sun,Nott'ham Forest,Brentford,1–1,Nicolás Domínguez,65,,,goal
+Sun,Nott'ham Forest,Brentford,1–1,,,Christian Nørgaard,58,goal
+Mon,Fulham,Chelsea,0–2,,,Mykhailo Mudryk,18,goal
+Mon,Fulham,Chelsea,0–2,,,Armando Broja,19,goal
+Tue,Luton Town,Burnley,1–2,Elijah Adebayo,84,,,goal
+Tue,Luton Town,Burnley,1–2,,,Lyle Foster,45+2,goal
+Tue,Luton Town,Burnley,1–2,,,Jacob Bruun Larsen,85,goal
+Sat,Luton Town,Tottenham,0–1,,,Yves Bissouma,45+4,yellow_red_card
+Sat,Luton Town,Tottenham,0–1,,,Micky van de Ven,52,goal
+Sat,Everton,Bournemouth,3–0,James Garner,8,,,goal
+Sat,Everton,Bournemouth,3–0,Jack Harrison,37,,,goal
+Sat,Everton,Bournemouth,3–0,Abdoulaye Doucouré,60,,,goal
+Sat,Manchester Utd,Brentford,2–1,Scott McTominay,90+3,,,goal
+Sat,Manchester Utd,Brentford,2–1,Scott McTominay,90+7,,,goal
+Sat,Manchester Utd,Brentford,2–1,,,Mathias Jensen,26,goal
+Sat,Burnley,Chelsea,1–4,Wilson Odobert,15,,,goal
+Sat,Burnley,Chelsea,1–4,,,Ameen Al-Dakhil (OG),42,own_goal
+Sat,Burnley,Chelsea,1–4,,,Cole Palmer (P),50,penalty_goal
+Sat,Burnley,Chelsea,1–4,,,Raheem Sterling,65,goal
+Sat,Burnley,Chelsea,1–4,,,Nicolas Jackson,74,goal
+Sat,Fulham,Sheffield Utd,3–1,Bobby Reid,53,,,goal
+Sat,Fulham,Sheffield Utd,3–1,Wes Foderingham (OG),76,,,own_goal
+Sat,Fulham,Sheffield Utd,3–1,Willian,90+2,,,goal
+Sat,Fulham,Sheffield Utd,3–1,,,Antonee Robinson (OG),68,own_goal
+Sat,Crystal Palace,Nott'ham Forest,0–0,,,,,
+Sun,West Ham,Newcastle Utd,2–2,Tomáš Souček,8,,,goal
+Sun,West Ham,Newcastle Utd,2–2,Kudus Mohammed,89,,,goal
+Sun,West Ham,Newcastle Utd,2–2,,,Alexander Isak,57,goal
+Sun,West Ham,Newcastle Utd,2–2,,,Alexander Isak,62,goal
+Sun,Wolves,Aston Villa,1–1,Hwang Hee-chan,53,,,goal
+Sun,Wolves,Aston Villa,1–1,Mario Lemina,90+4,,,yellow_red_card
+Sun,Wolves,Aston Villa,1–1,,,Pau Torres,55,goal
+Sun,Brighton,Liverpool,2–2,Simon Adingra,20,,,goal
+Sun,Brighton,Liverpool,2–2,Lewis Dunk,78,,,goal
+Sun,Brighton,Liverpool,2–2,,,Mohamed Salah,40,goal
+Sun,Brighton,Liverpool,2–2,,,Mohamed Salah (P),45+1,penalty_goal
+Sun,Arsenal,Manchester City,1–0,Gabriel Martinelli,86,,,goal
+Sat,Liverpool,Everton,2–0,Mohamed Salah (P),75,,,penalty_goal
+Sat,Liverpool,Everton,2–0,Mohamed Salah,90+7,,,goal
+Sat,Liverpool,Everton,2–0,,,Ashley Young,37,yellow_red_card
+Sat,Bournemouth,Wolves,1–2,Dominic Solanke,17,,,goal
+Sat,Bournemouth,Wolves,1–2,Lewis Cook,54,,,red_card
+Sat,Bournemouth,Wolves,1–2,,,Matheus Cunha,47,goal
+Sat,Bournemouth,Wolves,1–2,,,Sasa Kalajdzic,88,goal
+Sat,Newcastle Utd,Crystal Palace,4–0,Jacob Murphy,4,,,goal
+Sat,Newcastle Utd,Crystal Palace,4–0,Anthony Gordon,44,,,goal
+Sat,Newcastle Utd,Crystal Palace,4–0,Sean Longstaff,45+2,,,goal
+Sat,Newcastle Utd,Crystal Palace,4–0,Callum Wilson,66,,,goal
+Sat,Brentford,Burnley,3–0,Yoane Wissa,25,,,goal
+Sat,Brentford,Burnley,3–0,Bryan Mbeumo,62,,,goal
+Sat,Brentford,Burnley,3–0,Saman Ghoddos,87,,,goal
+Sat,Brentford,Burnley,3–0,,,Connor Roberts,78,yellow_red_card
+Sat,Manchester City,Brighton,2–1,Julián Álvarez,7,,,goal
+Sat,Manchester City,Brighton,2–1,Erling Haaland,19,,,goal
+Sat,Manchester City,Brighton,2–1,Manuel Akanji,90+5,,,yellow_red_card
+Sat,Manchester City,Brighton,2–1,,,Ansu Fati,73,goal
+Sat,Nott'ham Forest,Luton Town,2–2,Chris Wood,48,,,goal
+Sat,Nott'ham Forest,Luton Town,2–2,Chris Wood,76,,,goal
+Sat,Nott'ham Forest,Luton Town,2–2,,,Chiedozie Ogbene,83,goal
+Sat,Nott'ham Forest,Luton Town,2–2,,,Elijah Adebayo,90+2,goal
+Sat,Chelsea,Arsenal,2–2,Cole Palmer (P),15,,,penalty_goal
+Sat,Chelsea,Arsenal,2–2,Mykhailo Mudryk,48,,,goal
+Sat,Chelsea,Arsenal,2–2,,,Declan Rice,77,goal
+Sat,Chelsea,Arsenal,2–2,,,Leandro Trossard,84,goal
+Sat,Sheffield Utd,Manchester Utd,1–2,Oliver McBurnie (P),34,,,penalty_goal
+Sat,Sheffield Utd,Manchester Utd,1–2,,,Scott McTominay,28,goal
+Sat,Sheffield Utd,Manchester Utd,1–2,,,Diogo Dalot,77,goal
+Sun,Aston Villa,West Ham,4–1,Douglas Luiz,30,,,goal
+Sun,Aston Villa,West Ham,4–1,Douglas Luiz (P),51,,,penalty_goal
+Sun,Aston Villa,West Ham,4–1,Ollie Watkins,74,,,goal
+Sun,Aston Villa,West Ham,4–1,Leon Bailey,89,,,goal
+Sun,Aston Villa,West Ham,4–1,,,Jarrod Bowen,56,goal
+Mon,Tottenham,Fulham,2–0,Son Heung-min,36,,,goal
+Mon,Tottenham,Fulham,2–0,James Maddison,54,,,goal

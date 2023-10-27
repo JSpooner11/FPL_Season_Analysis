@@ -16,7 +16,7 @@ season_id = get_season_dates().strip()
 csv_file = open('data/' + season_id + '/player_stats.csv', 'w')
 
 csv_writer = csv.writer(csv_file)
-csv_writer.writerow(['match_date', 'home_team', 'away_team', 'score', 'goal_scorer_h', 'goal_min_h', 'goal_scorer_a', 'goal_min_a'])
+csv_writer.writerow(['match_date', 'home_team', 'away_team', 'score', 'goal_scorer_h', 'goal_min_h', 'goal_scorer_a', 'goal_min_a', 'event_type'])
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, "html.parser")
@@ -32,48 +32,57 @@ if response.status_code == 200:
         score_cell = cells[5]
         href = score_cell.find("a")["href"] if score_cell.find("a") else None
         
-        if href != None:
-            goal_scorer_url = "https://fbref.com" + str(href).strip()
-            
-            #wait 6 secs to for fbref more than 1 request every 3 secs
-            time.sleep(6)
-            
-            goal_scorer_response = requests.get(goal_scorer_url)
+        if score != '0–0':
+        
+            if href != None:
+                goal_scorer_url = "https://fbref.com" + str(href).strip()
+                
+                # 6 secs delay to comply with fbref requests guidelines (20 requests a min)
+                time.sleep(6)
+                
+                goal_scorer_response = requests.get(goal_scorer_url)
 
-            goal_scorer_html_content = requests.get(goal_scorer_url).text
-            
-            if goal_scorer_response.status_code == 200:
-                goal_scorer_soup = BeautifulSoup(goal_scorer_response.text, "html.parser")
+                goal_scorer_html_content = requests.get(goal_scorer_url).text
                 
-                try:
-                
-                    parent_div = goal_scorer_soup.find("div", {"id": "a"})
-
-                    for div in parent_div:  
-                        home_scoerer_and_time = div.find_next("div").text.strip()
-                        if len(home_scoerer_and_time) > 0:
-                            home_scoerer_and_time = home_scoerer_and_time.split('·')
-                            goal_scorer_h = home_scoerer_and_time[0].strip()
-                            goal_min_h = home_scoerer_and_time[1].strip()
-                            csv_writer.writerow([match_date, home_team, away_team, score, goal_scorer_h, goal_min_h, None, None])    
-                
-                except Exception as e: 
-                    pass
-            
-                try:
+                if goal_scorer_response.status_code == 200:
+                    goal_scorer_soup = BeautifulSoup(goal_scorer_response.text, "html.parser")
                     
-                    parent_div = goal_scorer_soup.find("div", {"id": "b"})
+                    try:
+                    
+                        parent_div = goal_scorer_soup.find('div', class_='event', id='a')
 
-                    for div in parent_div:  
-                        away_scoerer_and_time = div.find_next("div").text.strip()
-                        if len(away_scoerer_and_time) > 0:
-                            away_scoerer_and_time = away_scoerer_and_time.split('·')
-                            goal_scorer_a = away_scoerer_and_time[0].strip()
-                            goal_min_a = away_scoerer_and_time[1].strip()
-                            csv_writer.writerow([match_date, home_team, away_team, score, None, None, goal_scorer_a, goal_min_a])    
+                        for div in parent_div:  
+                            home_scoerer_and_time = div.text.strip()
+                            event_type = div.find_next('div').attrs
+                            if len(home_scoerer_and_time) > 0:
+                                home_scoerer_and_time = home_scoerer_and_time.split('·')
+                                goal_scorer_h = home_scoerer_and_time[0].strip()
+                                goal_min_h = home_scoerer_and_time[1].strip().replace('’', '')
+                                event_type = event_type['class'][1]
+                                csv_writer.writerow([match_date, home_team, away_team, score, goal_scorer_h, goal_min_h, None, None, event_type])    
+                    
+                    except Exception as e: 
+                        pass
                 
-                except Exception as e:
-                    csv_writer.writerow([match_date, home_team, away_team, score, None, None, None, None])  
+                    try:
+                        
+                        parent_div = goal_scorer_soup.find('div', class_='event', id='b')
+
+                        for div in parent_div:  
+                            away_scoerer_and_time = div.text.strip()
+                            event_type = div.find_next('div').attrs
+                            if len(away_scoerer_and_time) > 0:
+                                away_scoerer_and_time = away_scoerer_and_time.split('·')
+                                goal_scorer_a = away_scoerer_and_time[0].strip()
+                                goal_min_a = away_scoerer_and_time[1].strip().replace('’', '')
+                                event_type = event_type['class'][1]
+                                csv_writer.writerow([match_date, home_team, away_team, score, None, None, goal_scorer_a, goal_min_a, event_type])    
+                    
+                    except Exception as e:
+                        pass
+                    
+        else:
+            csv_writer.writerow([match_date, home_team, away_team, score, None, None, None, None, None])  
         
 
 
