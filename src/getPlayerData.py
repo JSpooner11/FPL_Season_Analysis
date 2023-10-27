@@ -16,16 +16,19 @@ season_id = get_season_dates().strip()
 csv_file = open('data/' + season_id + '/player_stats.csv', 'w')
 
 csv_writer = csv.writer(csv_file)
-csv_writer.writerow(['match_date', 'home_team', 'away_team', 'score', 'goal_scorer_h', 'goal_min_h', 'goal_scorer_a', 'goal_min_a', 'event_type'])
+csv_writer.writerow(['game_id', 'match_date', 'home_team', 'away_team', 'score', 'goal_scorer_h', 'goal_min_h', 'goal_scorer_a', 'goal_min_a', 'event_type'])
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, "html.parser")
 
     table = soup.find("table", {"class": "stats_table"})
+    
+    game_id = 1
 
     for row in table.find_all("tr")[1:]:
+        game_id += 1 
         cells = row.find_all("td")
-        match_date = cells[0].text.strip()
+        match_date = cells[1].text.strip()
         home_team = cells[3].text.strip()
         score = cells[5].text.strip()
         away_team = cells[7].text.strip()
@@ -59,7 +62,7 @@ if response.status_code == 200:
                                 goal_scorer_h = home_scoerer_and_time[0].strip()
                                 goal_min_h = home_scoerer_and_time[1].strip().replace('’', '')
                                 event_type = event_type['class'][1]
-                                csv_writer.writerow([match_date, home_team, away_team, score, goal_scorer_h, goal_min_h, None, None, event_type])    
+                                csv_writer.writerow([game_id, match_date, home_team, away_team, score, goal_scorer_h, goal_min_h, None, None, event_type])    
                     
                     except Exception as e: 
                         pass
@@ -76,13 +79,13 @@ if response.status_code == 200:
                                 goal_scorer_a = away_scoerer_and_time[0].strip()
                                 goal_min_a = away_scoerer_and_time[1].strip().replace('’', '')
                                 event_type = event_type['class'][1]
-                                csv_writer.writerow([match_date, home_team, away_team, score, None, None, goal_scorer_a, goal_min_a, event_type])    
+                                csv_writer.writerow([game_id, match_date, home_team, away_team, score, None, None, goal_scorer_a, goal_min_a, event_type])    
                     
                     except Exception as e:
                         pass
                     
         else:
-            csv_writer.writerow([match_date, home_team, away_team, score, None, None, None, None, None])  
+            csv_writer.writerow([game_id, match_date, home_team, away_team, score, None, None, None, None, None])  
         
 
 
