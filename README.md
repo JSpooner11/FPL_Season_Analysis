@@ -17,6 +17,8 @@
 4. Create DDL
 The DDL gets create on docker init.
 
+5. Get Docker IP address
+`docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysqlLocal`
 
 ### Docker Gotchas
 If you change SQL scripts you might need to docker-compose down, remove volumes.
